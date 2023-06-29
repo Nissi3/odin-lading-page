@@ -1,0 +1,278 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    text-align: justify;
+    
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(14, 13, 13, 0.89);
+
+}
+.logo{
+    height: 100%;
+    width: 310px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#img-logo{
+    height: 80px;
+    width: 120px;
+}
+.logo h1{
+    
+    text-shadow: 0 10px 30px gray;
+    font-size: 27px;
+}
+#nav-bar{
+    width: 250px;
+    height:auto;
+    
+}
+#nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li{
+    display: list-item;
+    list-style: none;
+}
+#nav-bar ul li a{
+    
+    color: white;
+}
+#nav-bar ul li{
+    
+    text-shadow: 0 10px 30px gray;
+}
+a{
+    cursor: pointer;
+    
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.about_container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(https://static.zerochan.net/Schierke.%28BERSERK%29.full.1357817.jpg);
+    
+    object-fit: cover;
+    background-size:cover;
+    background-attachment: fixed;   
+    align-items: center;
+    image-rendering: optimizeQuality;
+}
+#about{
+    width: 65%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.725);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    border-radius: 20px;
+    
+}
+.left-about{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    color:white;
+    justify-content: space-between;
+    margin: auto;
+}
+.left-about h1{
+    font-size: 25px;
+    margin-bottom: 55px;
+    text-shadow: 0 10px 30px gray;
+}
+.left-about p{
+    font-size: 17px;
+}
+.right-about{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 90%;
+    padding: 10px;
+}
+#img-about{
+    margin: auto;
+    box-shadow: 0 0px 30px gray;
+    height: 80%;
+    width: 80%;
+}
+#features{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.725);
+}
+.info{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#features h2{
+    margin: 15px 0px;
+    font-size: 30px;
+    text-shadow: 0 10px 30px gray;
+    color:  white;
+}
+.container{
+    width: calc(100%/4);
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.container .link{
+    width: auto;
+    height: auto;
+    display: flex;
+    border: 4px solid rgb(167, 167, 167);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px gray;
+}
+.container .link img{
+    border-radius: 6px;
+}
+.container .link .img_description{
+    width: 320px;
+    height: 300px;
+}
+.container .description_text{
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: 500;
+    text-shadow: 0 10px 30px black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cite_total{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1019/203/667/kentaro-miura-berserk-schierke-wallpaper-preview.jpg);
+    justify-content: center;
+    object-fit: cover;
+    background-size:cover;
+    background-attachment: fixed;   
+    align-items: center;
+    image-rendering: optimizeQuality;
+}
+.cite{
+    width:40%;
+    text-align: center;
+
+}
+.cite .cite_text{
+    font-size: 27px;
+    font-weight: bold;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items:center;
+    
+    text-shadow: 0 0px 50px rgb(253, 253, 253);
+}
+.cite_text .cite_text_autor{
+    margin-top: 30px;
+}
+#contact{
+    height:200px;
+    width: 100%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.725);
+    justify-content: center;
+}
+.contact_container{
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.52);
+    color:white;
+}
+.contact_container_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0px 3px;
+}
+.contact_button{
+    color: white;
+    border: solid 1px white;
+    background-color: rgba(111, 121, 122, 0.883);
+    padding: 8px 30px;
+    border-radius: 10px;
+
+}
+.foot{
+    width: 100%;
+    height: 70px;
+}
+footer{
+    background-color: rgba(14, 13, 13, 0.89);
+    padding: 20px;
+}
+span{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color:white;
+}
+footer  ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+footer ul li{
+    padding: 0 10px;
+}
+footer ul li a{
+    color: white;
+}
